@@ -1,0 +1,102 @@
+   <?xml version="1.0" encoding="UTF-8" ?>
+
+   <Form version="1.0" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+     <Properties>
+       <Property name="defaultCloseOperation" type="int" value="3"/>
+       <Property name="title" type="java.lang.String" value="My Webcam"/>
+     </Properties>
+     <SyntheticProperties>
+       <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+     </SyntheticProperties>
+     <Events>
+       <EventHandler 
+         event="windowClosing" 
+         listener="java.awt.event.WindowListener" 
+         parameters="java.awt.event.WindowEvent" 
+         handler="formWindowClosing"/>
+     </Events>
+
+     <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+     <SubComponents>
+       <Container class="javax.swing.JPanel" name="northPanel">
+         <Constraints>
+           <Constraint 
+              layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" 
+              value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+             <BorderConstraints direction="North"/>
+           </Constraint>
+         </Constraints>
+
+         <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+         <SubComponents>
+           <Component class="javax.swing.JLabel" name="messageLabel">
+             <Properties>
+               <Property name="text" type="java.lang.String" value="Status"/>
+             </Properties>
+             <Constraints>
+               <Constraint 
+                  layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" 
+                  value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                 <BorderConstraints direction="Center"/>
+               </Constraint>
+             </Constraints>
+           </Component>
+         </SubComponents>
+       </Container>
+       <Container class="javax.swing.JPanel" name="southPanel">
+         <Constraints>
+           <Constraint 
+              layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" 
+              value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+             <BorderConstraints direction="South"/>
+           </Constraint>
+         </Constraints>
+
+         <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+         <SubComponents>
+           <Container class="javax.swing.JToolBar" name="mainToolBar">
+             <Constraints>
+               <Constraint 
+                  layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" 
+                  value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                 <BorderConstraints direction="Center"/>
+               </Constraint>
+             </Constraints>
+
+             <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+             <SubComponents>
+               <Component class="javax.swing.JButton" name="recordButton">
+                 <Properties>
+                   <Property name="text" type="java.lang.String" value="Record"/>
+                 </Properties>
+                 <Events>
+                   <EventHandler 
+                      event="actionPerformed" 
+                      listener="java.awt.event.ActionListener" 
+                      parameters="java.awt.event.ActionEvent" 
+                      handler="recordButtonActionPerformed"/>
+                 </Events>
+               </Component>
+               <Component class="javax.swing.JLabel" name="fileLabel">
+                 <Properties>
+                   <Property name="text" type="java.lang.String" value="File:"/>
+                 </Properties>
+               </Component>
+             </SubComponents>
+           </Container>
+         </SubComponents>
+       </Container>
+       <Container class="javax.swing.JPanel" name="centerPanel">
+         <Constraints>
+           <Constraint 
+              layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" 
+              value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+             <BorderConstraints direction="Center"/>
+           </Constraint>
+         </Constraints>
+
+         <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+       </Container>
+     </SubComponents>
+   </Form>
+

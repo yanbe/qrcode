@@ -1,0 +1,31 @@
+1. How to run tutorial ?
+
+ Type following command in command prompt. (directory is example)
+
+ ----------
+ C:\qrcode>javac -d classes -cp lib\qrcode.jar example\QRCodeDecoderCUIExample.java
+
+ C:\qrcode>java -cp classes:lib\qrcode.jar example.QRCodeDecoderCUIExample res\qrcode.jpg
+ (many analytical output ...)
+
+ Hello, QR Code !
+ こんにちは，QRコード (Japanese)
+
+ C:\qrcode>
+ ----------
+
+2. How to use this library ?
+ See example\QRCodeDecoderCUIExample.java.
+
+3. What is res/NG directory ?
+ This directory contains QR Code image, currently unreadable with library.
+ This library can decode typical QR code. But some images are still unreadable 
+ due to bug or other technical issue.
+
+ We will improve code and make them readable in the future.
+
+--
+2007-09-01
+
+Open Source QR Code Library Project
+http://sourceforge.jp/projects/qrcode/
